@@ -30,8 +30,8 @@ The Workout Tracker is a Python application that utilizes the **Nutritionix API*
 1. Clone this repository:
 
 
-    git clone https://github.com/matanohana433/workout-tracker.git
-    cd workout-tracker
+        git clone https://github.com/matanohana433/workout-tracker.git
+        cd workout-tracker
 2. Create and activate a virtual environment (optional but recommended):
 
 **Windows:**
@@ -45,22 +45,22 @@ The Workout Tracker is a Python application that utilizes the **Nutritionix API*
 3. Install dependencies:
 
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 4. Set environment variables:
 
    * Create a .env file or set the variables manually:
 
 
-    APP_ID=your_nutritionix_app_id
-    API_KEY=your_nutritionix_api_key
-    AUTH_TOKEN=your_sheety_auth_token
-    SHEETY_API=your_sheety_project_id
+            APP_ID=your_nutritionix_app_id
+            API_KEY=your_nutritionix_api_key
+            AUTH_TOKEN=your_sheety_auth_token
+            SHEETY_API=your_sheety_project_id
 ## 🚀 Usage
 
 1. **Run the Application:**
 
 
-    python main.py
+        python main.py
 2. **Log an Exercise:**
 
 * When prompted, enter your exercise (e.g., "ran 5km" or "biked for 30 minutes"):
